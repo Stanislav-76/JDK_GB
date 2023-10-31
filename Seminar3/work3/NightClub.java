@@ -2,8 +2,6 @@ package Seminar3.work3;
 
 import java.util.Iterator;
 
-import Seminar3.ParamCollection;
-
 public class NightClub<T extends Person>  implements Iterable<T> {
     private T[] community;
 
