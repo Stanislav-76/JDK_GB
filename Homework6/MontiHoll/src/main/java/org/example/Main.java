@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap result = new HashMap();
+        HashMap<Integer, Boolean> result = new HashMap<>();
         Random random = new Random();
 
         for (int i = 0; i < 1000; i++) {
